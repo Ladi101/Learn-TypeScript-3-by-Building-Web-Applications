@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
-    "typescript": "3.1.1"
+    "browser-sync": "^2.26.7",
+    "typescript": "3.8.3"
   },
   "scripts": {
-    "tsc": "tsc"
+    "compile": "tsc",
+    "tsc": "tsc",
+    "watch": "tsc --watch",
+    "serve": "browser-sync start --server --watch"
   },
   "author": "dSebastien <seb@dsebastien.net> (https://www.dsebastien.net)",
   "license": "MIT"
