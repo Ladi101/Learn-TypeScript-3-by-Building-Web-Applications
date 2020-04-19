@@ -17,5 +17,9 @@
   },
   "author": "dSebastien <seb@dsebastien.net> (https://www.dsebastien.net)",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "class-transformer": "^0.2.3",
+    "localforage": "^1.7.3",
+    "reflect-metadata": "^0.1.13"
+  }
 }
